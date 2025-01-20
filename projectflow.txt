@@ -1,0 +1,18 @@
+RT-MASP/
+├── CMakeLists.txt
+├── main.cpp
+├── include/
+│   ├── Agent.h
+│   ├── Environment.h
+│   ├── SimulationManager.h
+│   ├── MainWindow.h
+├── src/
+│   ├── Agent.cpp
+│   ├── Environment.cpp
+│   ├── SimulationManager.cpp
+│   ├── MainWindow.cpp
+├── resources/
+│   └── qml/         # If using QtQuick / QML
+└── third_party/
+    ├── tensorflow/  # TensorFlow C++ API (headers, libs, etc.)
+    └── ... 
